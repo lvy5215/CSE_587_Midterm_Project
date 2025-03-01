@@ -14,7 +14,7 @@ from nltk.tokenize import word_tokenize
 print("Downloading NLTK resources...")
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('punkt_tab')  # Ensure punkt_tab is downloaded
+nltk.download('punkt_tab') 
 
 # Load the IMDB dataset from Hugging Face
 print("Loading IMDB dataset...")
@@ -85,7 +85,7 @@ for word, i in tokenizer.word_index.items():
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Save preprocessed data for later use (optional)
+# Save preprocessed data
 import pickle
 
 with open("preprocessed_data_glove.pkl", "wb") as f:

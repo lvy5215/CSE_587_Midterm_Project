@@ -12,3 +12,4 @@ Update the pkl file paths in the model that you want to run and run it.
 Note: 
 1. All the files are ran in colab by mounting the google drive, so change paths accordingly.
 2. Data is automatically downloaded from Hugging face IMDB dataset.
+3. Download Glove 100D from https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt
